@@ -1,3 +1,2 @@
 # javascript
 exercice with javascript
-gshghsqbkkhjdccddzdsz
