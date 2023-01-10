@@ -58,5 +58,9 @@ checkDriverAge(age) */
 // var array2 = ["Banana", ["Apples", ["Oranges"], "Blueberries"]];
 // access "Oranges".
 var array = ["Banana", "Apples", "Oranges", "Blueberries"]
+array.shift()
 array.sort()
+array.push('kiwi')
+delete array[0]
+array.reverse()
 alert(array)
