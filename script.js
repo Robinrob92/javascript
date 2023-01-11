@@ -82,3 +82,20 @@ database=
         password:"secret"
     }
 ]
+;
+
+new_feed=
+[
+    user1={
+        username:"user1",
+        timeline:"J'ai acheté du chocolat"
+        },
+    user2={
+        username:"user2",
+        timeline:"Trop bien javascript"
+    },
+    user3={
+        username:"user3",
+        timeline:"je préfère python"
+    }
+]
