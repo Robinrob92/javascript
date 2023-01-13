@@ -26,19 +26,23 @@ var news_feed=
     }
 ];
 
-var userNamePrompt=prompt("What is your username?");
-var passwordPrompt=prompt("What is your password?");
 
-function signIn(username, password){
+
+
+
+
+function isUserValid(username, password){
     for (var i=0; i<database.length; i++){
         if (database[i].username===username &&
             database[i].password===password
         ) {
-            console.log(news_feed);
-        } else {
-            alert{
-                "Sorry, wrong username and password"
-            }
+            return true;
+        } 
+        return false
+}
+
+function signIn(username, password){
+    console.log(isUserValid(username, password));
         }
     
     /* if (username===database[0].username &&
@@ -50,6 +54,9 @@ function signIn(username, password){
     else {
             alert("sorry wrong username or password")
         } */
-}
+};
+var userNamePrompt=prompt("What is your username?");
+var passwordPrompt=prompt("What is your password?");
 
-signIn(userNamePrompt, passwordPrompt);
+
+signIn(userNamePrompt, passwordPrompt)
